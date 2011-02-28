@@ -1,0 +1,20 @@
+7:
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  text: !!python/unicode '=== BMI ===
+
+    Guest talk with '
+14:
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  text: !!python/unicode '=== BMI ===
+
+    Guest talk with Blechner'
+21:
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  text: !!python/unicode '=== BMI ===
+
+    Guest talk - on hold'
+28:
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  text: !!python/unicode '=== BMI ===
+
+    Guest talk'

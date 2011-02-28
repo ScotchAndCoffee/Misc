@@ -1,0 +1,98 @@
+24:
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  !!python/unicode Todo: {!!python/unicode HW1: null}
+  text: !!python/unicode "=== BMI ===\n\n- Based on my thesis\n- Three logical layers\n
+    - Security\n - Interoperability\n - Administrative\n- Practical limits of security
+    policies\n - Psychiatric patients special protection\n - Flags for audit trail
+    support\n- Security will include integrating different security policies just
+    as interoperability layer integrates the data (**global unification**)\n- Architectural
+    style\n - Federated\n - Centralized\n - Replicated\n- **DoD architecture**\n -
+    Statistics about how useful **first mile data** is -> ask David, consider research
+    aspect\n  - Turnicat time, what injuries, what medications were given can be \n-
+    i2b2 has the federated architecture as on my thesis diagram (replication might
+    be ambiguous here, **make figure clearer**)\n\n\n=== Research ===\n\n\n=== Queuing
+    Theory ===\n\nDone: \n- 1.3.1\n- 1.3.2\n- 1.3.3\n- 1.3.4\n- 1.3.5\n- Matlab Script\n\n\nOutstanding:\n-
+    1.3.4\n- 1.3.7\n \n\n\n"
+25: {text: !!python/unicode "===Research===\n**An Ultra-Large-Scale Systems Approcha
+    to Natioal-Scale Health Information Systems**\n\n//Sulivan Knaus Marks//\n\n[Paper.pdf
+    \"\"file:///home/timo/Dropbox/PhD/CSE5099 Architectures/ULS/foser133-sullivanA.pdf\"\"]\n\n\n-
+    The //national-scale health information network (NHIN)// (**which is already under
+    development**) will be an ultra-large-scale (ULS) system.\n- NHIN -> at minimum
+    EHRs for all individuals in the US\n- Healthcare: complex, human intensive, not
+    suitable for simplistic IT solutions\n- //disconnected communities// health and
+    medical informatics <-> computer science and engineering\n- Motivation factors
+    for NHIN: economic, political, legal\n- incentives and penalties as mechanisms
+    to promote the NHIN by policy makers\n- NHIN **currently** being developed without
+    adequate system analysis, requirements and architecture.\n- focus //so far://
+    data interchange standards and a loosely defined architecture based on a **probabilistic**
+    record research locator (RLS).\n- traditional software applications that don't
+    apply to ULS: life-cycle models, centralized control over development, knowledge
+    about implementation details, seeing the system as a whole (//might be impossible//).
+    \n-  //Architecture// for ULS can be designed and engineered, but the system itself
+    needs to evolve out of the countless entities involved in healthcare: organizations,
+    individuals, automated entities. Their (//possibly pre-existent//) systems, processes
+    and decisions together assemble the ULS.\n- Healthcare system : ultra-large-scale
+    socio technical ecosystem, integration of the involved stakeholders (patients,
+    providers, payers, researchers, etc) will necessarily be an ULS information system.
+    \n- ULS\n  - software-reliant\n  - includes people, organizations, policy, economics,
+    politics\n  - Challenges \n   - extreme complexity\n   - size (lines/types of
+    code)\n   - necessary intellectual/financial investment\n   - data volume and
+    heterogenity\n   - large number of different purposes\n   - large number of included
+    processes\n   - large number of institutional boundaries\n   - large number of
+    involved staff and associated roles\n   - conflicting requirements \n   - production/construction
+    of the system will overlap\n   - high risk points (no failures allowed) and foreseen
+    acceptable failure at the same time\n   - legacy systems and institutions\n -
+    Issues to incorporate:\n  - economics\n  - industry structure\n  - legal/regulatory
+    restrictions\n  - certification/enforcement of system usage\n  - incentive schemes
+    \n  - continuous change of the healthcare sector itself\n  - decentralization
+    of control \n  - support of a bottom-up development\n- From a technical point
+    of view we need to attack **requirements, architectures, standards and interfaces**
+    but under the assumption that we are building an ULS.\n- The final system needs
+    to be inherently capable of re-architecting itself\n\n\n**Principles**\n\n+ empower
+    individuals\n+ support enormous diversity of data sources and processes for and
+    beyond data exchange\n+ **we compose whole institutions**\n+ start small and functional,
+    but keep in mind at all times that the system has to grow eventually\n+ all architectural
+    decissions have to be taken in the light of long term progress\n+ reasearch needs
+    to be coupled to the industry\n+ keep in mind: building a **critical** national
+    information infrastructure\n\n==================== \n\n===CTCDR===\n\n====================
+    \n\n"}
+27:
+  !!python/unicode Todo: {!!python/unicode CTCDR: null}
+  text: !!python/unicode '=== Datamining ===
+
+
+    - The preliminary research seems to be very profound (e.g., the extraction of
+    knowledge from 10 different scoring systems.). How would we improve on that? Do
+    we even need to improve on it, or can we refer to their work?
+
+
+    - How to we translate their inference network into an "probabilistic" approach?
+
+
+    - Does our data set include all the mentioned severity measures? Does it at least
+    include a subset of severity scores large enough so that we can work with it?
+
+
+    - That organization into a network modules is pretty neat, especially for the
+    reason that one could use the modules separately. Can we keep an organization
+    like that or does this need to be changed when we switch the methodology?
+
+
+    - Their results have been crosschecked against the opinion of asthma physicians.
+    Is our data set expressive enough so that we can build a similar comparative argument?
+
+
+    - Is there any way we could build a direct comparison of their work and whatever
+    system we get in the end?
+
+
+
+    === CTCDR ===
+
+
+    - --Port the existing schema to MySQL--'
+28: {text: !!python/unicode '=== Queuing Theory ===
+
+
+
+'}
