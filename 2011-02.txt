@@ -92,12 +92,14 @@
 
 
     - --Port the existing schema to MySQL--'
-
-
-28: {text: !!python/unicode "=== BMI Meeting ===\n\niPhone group:\n\n- iPhone wellness
-    diary can now directly communicate with GH without going through the server\n
-    - Prototypic at the moment, just the fatigue slider and authentication hard-coded,
-    but we can do it. \n\n- SMArt group\n - No additional information from the project
-    leaders\n - Goal set: Porting the wellness diary to the SMArt dashboard\n\n- Challenge\n
-    - Brainstorming about how health indicators could be used within our existing
-    mobile phone applications and in a way that is related to campus life."}
+28: {text: "=== BMI Meeting ===\n\niPhone group:\n\n- iPhone wellness diary can now\
+    \ directly communicate with GH without going through the server. Instead the need\
+    \ XML files are built/parsed directly on the phones.\n - Prototypic at the moment,\
+    \ just the fatigue slider is implemented so far and authentication is hard-coded\
+    \ at the moment, but we can do it. \n\n- SMArt group\n - No additional information\
+    \ from the project leaders\n - BMI guest server is set up\n - Goal set: Porting\
+    \ the wellness diary to the SMArt dashboard\n\n- Challenge at http://health2challenge.org/blog/go-viral/\n\
+    \ - Brainstorming about how health indicators could be used within our existing\
+    \ mobile phone applications and in a way that is related to campus life.\n - Ideas:\
+    \ \n  - College drinking, smoking, obesity\n  - Extend ODL applications to make\
+    \ use of the provided warehouse indicators."}
