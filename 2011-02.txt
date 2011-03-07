@@ -1,6 +1,6 @@
 24:
+  !!python/unicode Done: {!!python/unicode --HW1 for Queuing Theory--: null}
   !!python/unicode Tags: {!!python/unicode BMI: null}
-  !!python/unicode Todo: {!!python/unicode HW1: null}
   text: !!python/unicode "=== BMI ===\n\n- Based on my thesis\n- Three logical layers\n
     - Security\n - Interoperability\n - Administrative\n- Practical limits of security
     policies\n - Psychiatric patients special protection\n - Flags for audit trail
@@ -57,7 +57,7 @@
     information infrastructure\n\n==================== \n\n===CTCDR===\n\n====================
     \n\n"}
 27:
-  !!python/unicode Todo: {!!python/unicode CTCDR: null}
+  !!python/unicode Done: {!!python/unicode Build MySql CDR schema: null}
   text: !!python/unicode '=== Datamining ===
 
 
