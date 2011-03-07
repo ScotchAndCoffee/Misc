@@ -1,5 +1,28 @@
+1: {text: !!python/unicode "=== BMI Class ===\n\n- Discussion of read only word ->
+    imagine scenarios where you need real time updates (e.g., child transfer from
+    hospital to hospital after stabilization).\n\n- Data Warehouse\n - find unknown
+    conditions for patient\n - most often found in practice: drug abuse by patients\n\nmultiple
+    providers issue for the cloud.\n\n\nimagine having two screens for looking at
+    patient data when you are a physician, local and remote -> this could be acceptable\n\nhow
+    about putting warehouse, SOA and security methodologies into UML\n\n**how about
+    putting the cloud in there, too??**\n\nrelation publisher/subscriber and SMArt?\n\nlook
+    at the hybrid architecture again, get the cloud in there\n\nget the service oriented/cloud
+    slides that are already on the page, he is going to skip them"}
+3: {text: !!python/unicode '=== BMI Class ===
+
+
+    Dynamic Coalitions
+
+
+    multiple crisis at the same time
+
+    multiple organizations -> thing not only governments, but also things like red
+    cross, and so on... '}
 29:
-  Tags: {BMI: null}
-  text: '=== BMI ===
+  !!python/unicode Tags: {!!python/unicode BMI: null}
+  text: !!python/unicode '=== BMI ===
 
     Joint class with public science Professor (mainly about security)'
+31: {text: !!python/unicode '=== BMI ===
+
+    DoD guest talk'}
