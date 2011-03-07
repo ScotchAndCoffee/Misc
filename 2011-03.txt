@@ -1,14 +1,15 @@
-1: {text: !!python/unicode "=== BMI Class ===\n\n- Discussion of read only word ->
-    imagine scenarios where you need real time updates (e.g., child transfer from
-    hospital to hospital after stabilization).\n\n- Data Warehouse\n - find unknown
-    conditions for patient\n - most often found in practice: drug abuse by patients\n\nmultiple
-    providers issue for the cloud.\n\n\nimagine having two screens for looking at
-    patient data when you are a physician, local and remote -> this could be acceptable\n\nhow
-    about putting warehouse, SOA and security methodologies into UML\n\n**how about
-    putting the cloud in there, too??**\n\nrelation publisher/subscriber and SMArt?\n\nlook
-    at the hybrid architecture again, get the cloud in there\n\nget the service oriented/cloud
-    slides that are already on the page, he is going to skip them"}
-3: {text: !!python/unicode '=== BMI Class ===
+1: {text: "=== BMI Class ===\n\n- Discussion of read only word -> imagine scenarios\
+    \ where you need real time updates (e.g., child transfer from hospital to hospital\
+    \ after stabilization).\n\n- Data Warehouse\n - find unknown conditions for patient\n\
+    \ - most often found in practice: drug abuse by patients\n\nmultiple providers\
+    \ issue for the cloud.\n\n\nimagine having two screens for looking at patient\
+    \ data when you are a physician, local and remote -> this could be acceptable\n\
+    \nhow about putting warehouse, SOA and security methodologies into UML\n\n**how\
+    \ about putting the cloud in there, too??**\n\nrelation publisher/subscriber and\
+    \ SMArt?\n\nlook at the hybrid architecture again, get the cloud in there\n\n\
+    get the service oriented/cloud slides that are already on the page, he is going\
+    \ to skip them"}
+3: {text: '=== BMI Class ===
 
 
     Dynamic Coalitions
@@ -19,13 +20,42 @@
     multiple organizations -> thing not only governments, but also things like red
     cross, and so on... '}
 20:
-  !!python/unicode Todo: {!!python/unicode '**ICSOFT11 Paper Review**': null}
-  text: !!python/unicode === ICSOFT11 Paper Review===
+  Todo: {'**ICSOFT11 Paper Review**': null}
+  text: "=== ICSOFT11 Paper Review===\n\n33: **Transactions And Cloud Databases**\n\
+    \ \nAbstract/Introduction: \n- Somewhat incoherent: What exactly are the shortcomings\
+    \ of ElasTras, VoltDB and Xeround compared to Pyrrho DBMS\n- What are the mentioned\
+    \ \"elegant solutions\" for preserving ACID properties in transactions\n- It is\
+    \ not becoming clear that the Pyrrho DBMS is at the center of interest. \n- A\
+    \ non existing \"section 8\" is being referenced \n\nPartitioning a Database\n\
+    - What are the implications/challanges of partitioning a database. Or is this\
+    \ a straight forward process? Answering this in place would be important for the\
+    \ reader.\nTypo: \"Pyrrho only modified...\" should spell \"Pyrrho only modifies...\"\
+    \ or be explained further.\n- Unclear/not detailed enough example in the last\
+    \ paragraph. Is this describing a failover mechanism? How would the presumably\
+    \ distributed and moved to another server data reappear in the base database without\
+    \ additional effort?\n\n**Notes**\n\n[OLTP \"\"http://en.wikipedia.org/wiki/Online_transaction_processing\"\
+    \"] - Online transaction processing\n\n [ACID \"\"http://en.wikipedia.org/wiki/ACID\"\
+    \"](atomicity, consistency, isolation, durability)\n\nThe [CAP theorem \"\"http://en.wikipedia.org/wiki/CAP_theorem\"\
+    \"], also known as Brewer's theorem, states that it is impossible for a distributed\
+    \ computer system to simultaneously provide all three of the following guarantees:\n\
+    + Consistency (all nodes see the same data at the same time)\n+ Availability (node\
+    \ failures do not prevent survivors from continuing to operate)\n+ Partition tolerance\
+    \ (the system continues to operate despite arbitrary message loss)\n\n\n[Stored\
+    \ procedures \"\"http://en.wikipedia.org/wiki/Stored_procedure\"\"]: A stored\
+    \ procedure is a subroutine available to applications accessing a relational database\
+    \ system. Typical uses for stored procedures include data validation (integrated\
+    \ into the database) or access control mechanisms.\n\n[Serialization \"\"http://en.wikipedia.org/wiki/Serialization\"\
+    \"]: In computer science, in the context of data storage and transmission, serialization\
+    \ is the process of converting a data structure or object into a format that can\
+    \ be stored (for example, in a file or memory buffer, or transmitted across a\
+    \ network connection link) and \"resurrected\" later in the same or another computer\
+    \ environment\n\n38: **AUTOMATIC INSERTION OF BUSINESS RULES IMPLEMENTATION IN\
+    \ RELATIONAL DATABASE**\n\n- Dot in title\n"
 29:
-  !!python/unicode Tags: {!!python/unicode BMI: null}
-  text: !!python/unicode '=== BMI ===
+  Tags: {BMI: null}
+  text: '=== BMI ===
 
     Joint class with public science Professor (mainly about security)'
-31: {text: !!python/unicode '=== BMI ===
+31: {text: '=== BMI ===
 
     DoD guest talk'}
