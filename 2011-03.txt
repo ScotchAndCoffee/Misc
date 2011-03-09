@@ -19,6 +19,44 @@
 
     multiple organizations -> thing not only governments, but also things like red
     cross, and so on... '}
+15:
+  Todo: {Wireless - Lab 3: null}
+  text: "===Wireless===\nGraduate students: (1) write critic reviews for these two\
+    \ papers. (2) compare S-MAC and B-MAC. \n\n**S-MAC**\n- Expectation: deployment\
+    \ in ad-hoc fashion, inactive nodes until something is detected\n\n- Goals:\n\
+    \ - energy conservation\n - self-configuration (for scalability and adaptivity)\n\
+    \ - improve on  802.11-like MAC protocols\n - Secondary: per-node fairness and\
+    \ latency\n\n- Key characteristis of S-MAC:\n - low-duty-cycle operation in a\
+    \ multihop network\n  - periodically putting nodes into sleep state (radio completely\
+    \ turned off)\n  - Coordinated sleeping amongh neighbor nodes\n  - Sleeping is\
+    \ default idle operation in contrast to other MAC protocols\n  - this increases\
+    \ latency, since sender might have to wait for a reciever to wake up\n   - suggestion\
+    \ to counter this with //adaptive listening//\n\n - virtual clusters based on\
+    \ common sleep schedules to reduce control overhead and enable traffic-dependent\
+    \ wake-up\n\n - in-channel signaling to avoid overhearing unnecessary traffic\
+    \ (control overhead)\n\n - message passing to reduce contention latency\n  - divide\
+    \ long message in small fragements and transmit them in a burst\n  - node with\
+    \ more data to send has longer access to the medium -> unfair for nodes sending\
+    \ short packages\n\n - in-network data processing\n  - data aggregation\n  - collaborative\
+    \ signal processing\n  - requires store-and-forward processing of messages\n \
+    \ - MAC protocols that promote fragment-level fairness actually increase message-level\
+    \ latency\n  - message passing reduces message-level latency by trading off the\
+    \ fragment-level fairness\n\n- Demonstration of fundamental tradeoffs between\
+    \ energy, latency and throughput \n- Sources of energy waste\n - Collision\n -\
+    \ Overhearing\n - Control packet overhead\n - Idle listening\n\n\n\n\n\n\n**NOTES**\n\
+    - [Media Access Control (MAC) \"\"http://en.wikipedia.org/wiki/Media_Access_Control\"\
+    \"]: The Media Access Control (MAC) data communication protocol sub-layer, also\
+    \ known as the Medium Access Control, is a sublayer of the Data Link Layer specified\
+    \ in the seven-layer OSI model (layer 2). It provides addressing and channel access\
+    \ control mechanisms that make it possible for several terminals or network nodes\
+    \ to communicate within a multi-point network, typically a local area network\
+    \ (LAN) or metropolitan area network (MAN). The hardware that implements the MAC\
+    \ is referred to as a Medium Access Controller.\n\nThe MAC sub-layer acts as an\
+    \ interface between the Logical Link Control (LLC) sublayer and the network's\
+    \ physical layer. The MAC layer emulates a full-duplex logical communication channel\
+    \ in a multi-point network. This channel may provide unicast, multicast or broadcast\
+    \ communication service.\n\nhttp://www.thatfilmsite.org/watch-1542947-Skyline\n\
+    http://www.megavideo.com/?v=UO6LCREX"
 20:
   Research: {References: null, Reviews: null}
   Todo: {'**ICSOFT11 Paper Review**': null}
