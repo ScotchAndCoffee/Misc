@@ -1,13 +1,14 @@
-1: {text: "=== BMI Class ===\n\n- Discussion of read only word -> imagine scenarios
-    where you need real time updates (e.g., child transfer from hospital to hospital
-    after stabilization).\n\n- Data Warehouse\n - find unknown conditions for patient\n
-    - most often found in practice: drug abuse by patients\n\nmultiple providers issue
-    for the cloud.\n\n\nimagine having two screens for looking at patient data when
-    you are a physician, local and remote -> this could be acceptable\n\nhow about
-    putting warehouse, SOA and security methodologies into UML\n\n**how about putting
-    the cloud in there, too??**\n\nrelation publisher/subscriber and SMArt?\n\nlook
-    at the hybrid architecture again, get the cloud in there\n\nget the service oriented/cloud
-    slides that are already on the page, he is going to skip them"}
+1: {text: "=== BMI Class ===\n\n- Discussion of read only word -> imagine scenarios\
+    \ where you need real time updates (e.g., child transfer from hospital to hospital\
+    \ after stabilization).\n\n- Data Warehouse\n - find unknown conditions for patient\n\
+    \ - most often found in practice: drug abuse by patients\n\nmultiple providers\
+    \ issue for the cloud.\n\n\nimagine having two screens for looking at patient\
+    \ data when you are a physician, local and remote -> this could be acceptable\n\
+    \nhow about putting warehouse, SOA and security methodologies into UML\n\n**how\
+    \ about putting the cloud in there, too??**\n\nrelation publisher/subscriber and\
+    \ SMArt?\n\nlook at the hybrid architecture again, get the cloud in there\n\n\
+    get the service oriented/cloud slides that are already on the page, he is going\
+    \ to skip them"}
 3: {text: '=== BMI Class ===
 
 
@@ -19,41 +20,59 @@
     multiple organizations -> thing not only governments, but also things like red
     cross, and so on... '}
 20:
-  !!python/unicode Research: {!!python/unicode Reviews: null}
-  !!python/unicode Todo: {!!python/unicode '**ICSOFT11 Paper Review**': null}
-  text: !!python/unicode "=== ICSOFT11 Paper Review===\n\n33: **Transactions And Cloud
-    Databases**\n \n//Abstract/Introduction:// \n- Somewhat incoherent: What exactly
-    are the shortcomings of ElasTras, VoltDB and Xeround compared to Pyrrho DBMS\n-
-    What are the mentioned \"elegant solutions\" for preserving ACID properties in
-    transactions\n- It is not becoming clear that the Pyrrho DBMS is at the center
-    of interest. \n- A non existing \"section 8\" is being referenced \n\n\n//Partitioning
-    a Database://\n- What are the implications/challanges of partitioning a database.
-    Or is this a straight forward process? Answering this in place would be important
-    for the reader.\nTypo: \"Pyrrho only modified...\" should spell \"Pyrrho only
-    modifies...\" or be explained further.\n- Not detailed enough example in the last
-    paragraph. Is this describing a failover mechanism? In hich way does the presumably
-    distributed and moved to another server data reappear in the base database without
-    additional effort? An explenation in greater detail is required.\n\n\n//Example
-    Partitioning Example://\n- The client needs knowledge of the nature of the partitioning.
-    Are there suggestions on how to handle this?\n\n\n//Cloud Computing//\n- Referencing
-    a not existing section 10\n- \n\n\n\n**Notes**\n\n[OLTP \"\"http://en.wikipedia.org/wiki/Online_transaction_processing\"\"]
-    - Online transaction processing\n\n [ACID \"\"http://en.wikipedia.org/wiki/ACID\"\"](atomicity,
-    consistency, isolation, durability)\n\nThe [CAP theorem \"\"http://en.wikipedia.org/wiki/CAP_theorem\"\"],
-    also known as Brewer's theorem, states that it is impossible for a distributed
-    computer system to simultaneously provide all three of the following guarantees:\n+
-    Consistency (all nodes see the same data at the same time)\n+ Availability (node
-    failures do not prevent survivors from continuing to operate)\n+ Partition tolerance
-    (the system continues to operate despite arbitrary message loss)\n\n\n[Stored
-    procedures \"\"http://en.wikipedia.org/wiki/Stored_procedure\"\"]: A stored procedure
-    is a subroutine available to applications accessing a relational database system.
-    Typical uses for stored procedures include data validation (integrated into the
-    database) or access control mechanisms.\n\n[Serialization \"\"http://en.wikipedia.org/wiki/Serialization\"\"]:
-    In computer science, in the context of data storage and transmission, serialization
-    is the process of converting a data structure or object into a format that can
-    be stored (for example, in a file or memory buffer, or transmitted across a network
-    connection link) and \"resurrected\" later in the same or another computer environment\n\n38:
-    **AUTOMATIC INSERTION OF BUSINESS RULES IMPLEMENTATION IN RELATIONAL DATABASE**\n\n-
-    Dot in title\n"
+  Research: {References: null, Reviews: null}
+  Todo: {'**ICSOFT11 Paper Review**': null}
+  text: "=== ICSOFT11 Paper Review===\n\n33: **Transactions And Cloud Databases**\n\
+    \ \n//Abstract/Introduction:// \n- Somewhat incoherent: What exactly are the shortcomings\
+    \ of ElasTras, VoltDB and Xeround compared to Pyrrho DBMS\n- What are the mentioned\
+    \ \"elegant solutions\" for preserving ACID properties in transactions\n- It is\
+    \ not becoming clear that the Pyrrho DBMS is at the center of interest. \n- A\
+    \ non existing \"section 8\" is being referenced \n- \"Optimistic concurrency\
+    \ model\" is used throughout the paper but never defined.\n\n\n//Partitioning\
+    \ a Database://\n- What are the implications/challanges of partitioning a database.\
+    \ Or is this a straight forward process? Answering this in place would be important\
+    \ for the reader.\nTypo: \"Pyrrho only modified...\" should spell \"Pyrrho only\
+    \ modifies...\" or be explained further.\n- Not detailed enough example in the\
+    \ last paragraph. Is this describing a failover mechanism? In hich way does the\
+    \ presumably distributed and moved to another server data reappear in the base\
+    \ database without additional effort? An explenation in greater detail is required.\n\
+    \n\n//Example Partitioning Example://\n- The client needs knowledge of the nature\
+    \ of the partitioning. Are there suggestions on how to handle this?\n\n\n//Cloud\
+    \ Computing//\n- Referencing a not included section 10\n- Differences between\
+    \ direct and indirect access should be explained more\n- Referencing a not included\
+    \ section 8.5\n\n\n//Transaction Rate and Benchmarking//\n- Figure using confusing\
+    \ non-sense entries\n\n\n//Conclusion//\n- Referred to discussion of SQL2008 complience\
+    \ and ACID requirements are not given in the paper.\n\n\n\n**Notes**\n\n[OLTP\
+    \ \"\"http://en.wikipedia.org/wiki/Online_transaction_processing\"\"] - Online\
+    \ transaction processing\n\n [ACID \"\"http://en.wikipedia.org/wiki/ACID\"\"](atomicity,\
+    \ consistency, isolation, durability)\n\nThe [CAP theorem \"\"http://en.wikipedia.org/wiki/CAP_theorem\"\
+    \"], also known as Brewer's theorem, states that it is impossible for a distributed\
+    \ computer system to simultaneously provide all three of the following guarantees:\n\
+    + Consistency (all nodes see the same data at the same time)\n+ Availability (node\
+    \ failures do not prevent survivors from continuing to operate)\n+ Partition tolerance\
+    \ (the system continues to operate despite arbitrary message loss)\n\n\n[Stored\
+    \ procedures \"\"http://en.wikipedia.org/wiki/Stored_procedure\"\"]: A stored\
+    \ procedure is a subroutine available to applications accessing a relational database\
+    \ system. Typical uses for stored procedures include data validation (integrated\
+    \ into the database) or access control mechanisms.\n\n[Serialization \"\"http://en.wikipedia.org/wiki/Serialization\"\
+    \"]: In computer science, in the context of data storage and transmission, serialization\
+    \ is the process of converting a data structure or object into a format that can\
+    \ be stored (for example, in a file or memory buffer, or transmitted across a\
+    \ network connection link) and \"resurrected\" later in the same or another computer\
+    \ environment\n\n38: **AUTOMATIC INSERTION OF BUSINESS RULES IMPLEMENTATION IN\
+    \ RELATIONAL DATABASE**\n\n//General//\n- Incorrect grammer\n- Convoluted senetence\
+    \ structure\n- Insufficient interpunction\n- Formating errors (incorrect line\
+    \ breaks)\n- Inconsistent senetence structures hinder understanding\n- Pieces\
+    \ of examples are not clearly seperated from text flow\n- Invalid XML in examples\n\
+    - Poorly formated tables\n- Exemples are given in a mix of Spanish and English\n\
+    - Granularity of section numbering is too high\n- Duplicates in reference list\n\
+    - Very limited presentation of related work\n- Literal repetitions  \n\n\n===Future\
+    \ Reads===\n\nChang, F.; Dean, J.; Ghamawat, S.; Hsieh, W. C.; \nWallach, D. A.;\
+    \ Burrows, M.; Chandra, T.; Fikes, A.; \nGruber, R. (2008): Bigtable: A Distributed\
+    \ Storage \nSystem for Structured Data, ACM Transactions on \nComputer Systems,\
+    \ 26.2, article no. 4.\n\nKossmann, D.; Kraska, T.; Loesing, S. (2010): An \n\
+    Evaluation of Alternative Architectures for Transaction \nProcessing in the Cloud,\
+    \ SIGMOD’10, Indianapolis, \nUSA (ACM) ISBN 978-1-4503-0032 \n"
 29:
   Tags: {BMI: null}
   text: '=== BMI ===
